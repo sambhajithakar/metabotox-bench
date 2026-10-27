@@ -1,0 +1,4 @@
+drug_name,parent_smiles,toxic_species_name,toxic_species_smiles,notes
+Methoxyflurane,COC(F)(F)C(Cl)Cl,dichloroacetic acid,O=C(O)C(Cl)Cl,parent=wikipedia_infobox; toxic=opsin_from_goldset_name
+Leflunomide,Cc1oncc1C(=O)Nc1ccc(C(F)(F)F)cc1,teriflunomide,C/C(O)=C(\C#N)C(=O)Nc1ccc(C(F)(F)F)cc1,parent=wikipedia_infobox; toxic=wikipedia_infobox
+Benzene,c1ccccc1,benzene oxide,C1=CC2OC2C=C1,parent=opsin_from_goldset_name; toxic=opsin_from_goldset_name

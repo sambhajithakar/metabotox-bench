@@ -1,0 +1,42 @@
+GLORYx rules compiled: 260
+GLORYx rules NOT compiled: 0
+self-check: paracetamol -> 13 products in one step (need >=10), NAPQI present: True
+  Methoxyflurane         dichloroacetic acid                bag=  2552 hit=False  [8s]
+  Leflunomide            teriflunomide                      bag= 17373 hit=False  [112s]
+  Benzene                benzene oxide                      bag=   582 hit=False  [2s]
+
+Depth:                4
+Rows in table:        3
+Evaluated:            3
+Recall denominator:   3
+
+  gloryx_rules (exhaustive, UPPER BOUND on GLORYx):
+    coverage (full InChIKey):     0/3 = 0.0%
+    coverage (skeleton):          0/3 = 0.0%
+    mean candidate-set size:      6836
+    rows hitting frontier cap:    0
+    NOT EXPRESSIBLE by any GLORYx rule within this depth:
+      - Methoxyflurane/dichloroacetic acid
+      - Leflunomide/teriflunomide
+      - Benzene/benzene oxide
+GLORYx rules compiled: 260
+GLORYx rules NOT compiled: 0
+self-check: paracetamol -> 13 products in one step (need >=10), NAPQI present: True
+  Methoxyflurane         dichloroacetic acid                bag= 29972 hit=False  [139s]
+  Leflunomide            teriflunomide                      bag= 60003 hit=False frontier_cap_reached generations=5 [441s]
+  Benzene                benzene oxide                      bag=  6937 hit=False  [29s]
+
+Depth:                5
+Rows in table:        3
+Evaluated:            3
+Recall denominator:   3
+
+  gloryx_rules (exhaustive, UPPER BOUND on GLORYx):
+    coverage (full InChIKey):     0/3 = 0.0%
+    coverage (skeleton):          0/3 = 0.0%
+    mean candidate-set size:      32304
+    rows hitting frontier cap:    1  (those rows are lower bounds)
+    NOT EXPRESSIBLE by any GLORYx rule within this depth:
+      - Methoxyflurane/dichloroacetic acid
+      - Leflunomide/teriflunomide
+      - Benzene/benzene oxide

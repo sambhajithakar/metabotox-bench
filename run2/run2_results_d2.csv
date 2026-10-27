@@ -1,0 +1,23 @@
+drug_name,toxic_species_name,status,toxic_inchikey,parent_is_toxic_species,gloryx_rules_hit_full,gloryx_rules_hit_skeleton,gloryx_rules_bag_size,gloryx_rules_note,seconds
+Acetaminophen,NAPQI (N-acetyl-p-benzoquinone imine),evaluated,URNSECGXFRDEDC-UHFFFAOYSA-N,False,True,True,147,,0.4
+Valproic acid,4-ene-valproic acid,evaluated,UMYDNZXEHYSVFY-UHFFFAOYSA-N,False,True,True,160,,0.6
+Ifosfamide,chloroacetaldehyde,evaluated,QSKPIOLLBIHNAC-UHFFFAOYSA-N,False,True,True,469,,1.8
+Cyclophosphamide,acrolein,evaluated,HGINCPLSRVDWNT-UHFFFAOYSA-N,False,False,False,321,,1.5
+Terbinafine,"TBF-A (E-6,6-dimethylhept-2-en-4-ynal)",evaluated,ITSLKJVPPOREBI-GQCTYLIASA-N,False,True,True,414,,2.6
+Felbamate,atropaldehyde (2-phenylpropenal),evaluated,ZFBRJUBOJXNIQM-UHFFFAOYSA-N,False,False,False,151,,0.7
+Halothane,trifluoroacetyl chloride,evaluated,PNQBEPDZQUOCNY-UHFFFAOYSA-N,False,True,True,28,,0.1
+Isoniazid,hydrazine,evaluated,OAKJQQAXSVQMHS-UHFFFAOYSA-N,False,True,True,81,,0.2
+Isoniazid,acetylhydrazine,evaluated,OFLXLNCGODUUOT-UHFFFAOYSA-N,False,True,True,81,,0.2
+Capecitabine,5-fluorouracil (via 5'-DFUR),evaluated,GHASVSINZRGABV-UHFFFAOYSA-N,False,True,True,876,,5.8
+Methanol,formic acid (via formaldehyde),evaluated,BDAGIHXWWSANSR-UHFFFAOYSA-N,False,True,True,34,,0.0
+Ethylene glycol,glycolic acid,evaluated,AEMRFAOFKBGASW-UHFFFAOYSA-N,False,True,True,53,,0.1
+Ethylene glycol,oxalic acid,evaluated,MUBZPKHOEPUJKR-UHFFFAOYSA-N,False,True,True,53,,0.1
+Methoxyflurane,dichloroacetic acid,evaluated,JXTHNDFMNIQAHM-UHFFFAOYSA-N,False,False,False,37,,0.1
+Leflunomide,teriflunomide,evaluated,UTNUDOFZCWSZMS-YFHOEESVSA-N,False,False,False,124,,0.5
+Benzene,benzene oxide,evaluated,WDFZWSZNOFELJY-UHFFFAOYSA-N,False,False,False,10,,0.0
+Benzene,hydroquinone,evaluated,QIGBRXMKCJKVMJ-UHFFFAOYSA-N,False,True,True,10,,0.0
+Benzene,"1,4-benzoquinone",evaluated,AZQWKYJCGOJGHM-UHFFFAOYSA-N,False,True,True,10,,0.0
+Terfenadine,parent_is_the_hazard,evaluated,GUGOEEXESWIERI-UHFFFAOYSA-N,True,True,True,739,,10.2
+Bosentan,parent_is_the_hazard,evaluated,GJPICJJJRGTNOD-UHFFFAOYSA-N,True,True,True,684,,7.6
+Tolcapone,parent nitrocatechol (uncoupler),evaluated,MIQPIUSUKVNLNT-UHFFFAOYSA-N,True,True,True,293,,1.2
+Perhexiline,parent accumulates (CYP2D6 PM),evaluated,CYXKNKQEMFBLER-UHFFFAOYSA-N,True,True,True,634,,8.4

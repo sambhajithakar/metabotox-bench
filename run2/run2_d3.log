@@ -1,0 +1,41 @@
+GLORYx rules compiled: 260
+GLORYx rules NOT compiled: 0
+self-check: paracetamol -> 13 products in one step (need >=10), NAPQI present: True
+  Acetaminophen          NAPQI (N-acetyl-p-benzoquinone imi bag=  1694 hit=True  [6s]
+  Valproic acid          4-ene-valproic acid                bag=  1747 hit=True  [10s]
+  Ifosfamide             chloroacetaldehyde                 bag=  4771 hit=True  [26s]
+  Cyclophosphamide       acrolein                           bag=  3019 hit=True  [17s]
+  Terbinafine            TBF-A (E-6,6-dimethylhept-2-en-4-y bag=  4424 hit=True  [33s]
+  Felbamate              atropaldehyde (2-phenylpropenal)   bag=  1701 hit=True  [10s]
+  Halothane              trifluoroacetyl chloride           bag=   167 hit=True  [0s]
+  Isoniazid              hydrazine                          bag=   787 hit=True  [2s]
+  Isoniazid              acetylhydrazine                    bag=   787 hit=True  [2s]
+  Capecitabine           5-fluorouracil (via 5'-DFUR)       bag= 13422 hit=True  [120s]
+  Methanol               formic acid (via formaldehyde)     bag=   354 hit=True  [1s]
+  Ethylene glycol        glycolic acid                      bag=   554 hit=True  [1s]
+  Ethylene glycol        oxalic acid                        bag=   554 hit=True  [2s]
+  Methoxyflurane         dichloroacetic acid                bag=   243 hit=False  [1s]
+  Leflunomide            teriflunomide                      bag=  1460 hit=False  [7s]
+  Benzene                benzene oxide                      bag=    57 hit=False  [0s]
+  Benzene                hydroquinone                       bag=    57 hit=True  [0s]
+  Benzene                1,4-benzoquinone                   bag=    57 hit=True  [0s]
+  Terfenadine            parent_is_the_hazard               bag= 11272 hit=True  [222s]
+  Bosentan               parent_is_the_hazard               bag= 11317 hit=True  [181s]
+  Tolcapone              parent nitrocatechol (uncoupler)   bag=  3689 hit=True  [19s]
+  Perhexiline            parent accumulates (CYP2D6 PM)     bag=  9111 hit=True  [150s]
+
+Depth:                3
+Rows in table:        22
+Evaluated:            22
+Parent-driven rows (recall not applicable): 4 -> Terfenadine, Bosentan, Tolcapone, Perhexiline
+Recall denominator:   18
+
+  gloryx_rules (exhaustive, UPPER BOUND on GLORYx):
+    coverage (full InChIKey):     15/18 = 83.3%
+    coverage (skeleton):          15/18 = 83.3%
+    mean candidate-set size:      1992
+    rows hitting frontier cap:    0
+    NOT EXPRESSIBLE by any GLORYx rule within this depth:
+      - Methoxyflurane/dichloroacetic acid
+      - Leflunomide/teriflunomide
+      - Benzene/benzene oxide

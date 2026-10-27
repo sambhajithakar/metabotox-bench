@@ -1,0 +1,4 @@
+drug_name,toxic_species_name,status,toxic_inchikey,parent_is_toxic_species,gloryx_rules_hit_full,gloryx_rules_hit_skeleton,gloryx_rules_bag_size,gloryx_rules_note,seconds
+Methoxyflurane,dichloroacetic acid,evaluated,JXTHNDFMNIQAHM-UHFFFAOYSA-N,False,False,False,29972,,139.4
+Leflunomide,teriflunomide,evaluated,UTNUDOFZCWSZMS-YFHOEESVSA-N,False,False,False,60003,frontier_cap_reached generations=5,441.3
+Benzene,benzene oxide,evaluated,WDFZWSZNOFELJY-UHFFFAOYSA-N,False,False,False,6937,,29.4
