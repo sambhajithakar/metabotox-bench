@@ -69,7 +69,7 @@ intermediates are disproportionately the species that do the damage.
 | Path | What it is |
 |---|---|
 | `metabotox_bench_gold_set_v0.3.1.csv` | **The current reference set** — 46 entries, 13 columns |
-| `metabotox_bench_gold_set_v0.3.csv` | The version archived under the Zenodo DOI, kept for provenance |
+| `metabotox_bench_gold_set_v0.3.csv` | The version archived under version 1 of the Zenodo DOI, kept for provenance |
 | `metabotox_bench_gold_set_README.md` | Its documentation and change log |
 | `gold_set_references_draft.csv` | One verified primary reference per entry |
 | `run1/gold_set_structures_v0.1.csv` | Verified structure table, with provenance per row |
@@ -129,12 +129,21 @@ repository can be compared.
 
 ## Relation to the Zenodo deposit
 
-The archival record is **https://doi.org/10.5281/zenodo.23402205** (17 October 2026, 37
-files). That DOI is what the paper cites and what should be cited in any reuse. This
-repository is the working copy: it carries the same code and results plus `v0.3.1` of the
-reference set and the 400 dpi TIFF figures, and it is where corrections land first. Where the
-two disagree, the DOI is the record of what was submitted and this repository is the current
-state.
+Three DOIs, each with a different job.
+
+**https://doi.org/10.5281/zenodo.23402204** is the concept DOI. It always resolves to the
+newest version and is the right link for general reuse.
+
+**https://doi.org/10.5281/zenodo.23402205** is version 1 (17 October 2026, 37 files). This is
+the DOI the paper cites. It is immutable and is the record of what was submitted.
+
+**https://doi.org/10.5281/zenodo.23700417** is version 3 (27 October 2026, 42 files), the
+complete deposit: everything in version 1 together with `v0.3.1` of the reference set and the
+400 dpi TIFF figures. It mirrors this repository.
+
+This repository is where corrections land first. Where it and a published version disagree,
+the version DOI is the record of that point in time and this repository is the current state.
+
 
 ## Licence
 
